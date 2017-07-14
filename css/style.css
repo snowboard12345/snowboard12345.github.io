@@ -1,0 +1,63 @@
+body {
+	background-color: #448cff;
+}
+
+ul li a {
+	background-color: white;
+	text-align: center;
+}  
+
+#bakgrundsbild {
+	background-image: url("../bilder/vatten.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	position: relative;
+}
+
+.col-sm-10 {
+	background-color: white;
+}
+
+#youtube {
+	position: absolute;
+	right: 494px;
+}
+.nav-pills li a:hover {
+	background-color: ;
+}
+#box1 {
+	width: 100px;
+    height: 100px;
+    background-color: ;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+#box1:hover { background-color: red; }
+#box1:active { background-color: blue; }
+
+#bild-bakgrund {
+	position: absolute;
+	left: 0px;
+	padding: 50px;
+	width: 950px;
+}
+#box1 {
+	width: 100px;
+    height: 100px;
+    background-color:  #448cff;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+#box1:hover { background-color: red; }
+#box1:active { background-color: blue; }
+
+#kommentar {
+	position: absolute;
+	top: 80px;
+	right: -200px;
+}

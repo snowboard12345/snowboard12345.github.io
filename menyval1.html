@@ -1,0 +1,84 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Hemsidans titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body id="bakgrundsbild">
+   <!-- I den här diven finns allt som ligger ovanför menyn och innehållet. Förslagsvis hemsidans namn -->
+   <div class="container">
+    <h1>info</h1>
+</div>
+
+<div class="container">
+
+    <!-- Den lilla kolumnen till vänster där menyn finns -->
+    <div class="col-sm-2">
+        <ul class="nav nav-pills nav-stacked nav-default">
+            <li class="activate"><a href="index.html"><h3>Home</h3></a></li>
+            <li><a href="menyval1.html"><h3>Info</h3></a></li>
+            <li><a href="menyval2.html"><h3>Video</h3></a></li>
+            <li><a href="menyval3.html"><h3>Övrigt</h3></a></li>
+        </ul>
+    </div>
+
+    <!-- Den stora kolumnen till höger om menyn där innehållet finns -->
+    <div class="col-sm-10">
+    <div class="textbox">
+        <h3>ooho`s goal is to create
+            waste free alternatives to to
+            plastic bottles / cups / and
+            more.</h3>
+            <br><hr><br>
+            <h3>ooho's impact is to stop 1 billion
+                plastic bottles reaching the ocean every year
+                and to stop 300 million kg of co2 from every 
+                being emitted.</h3>
+                
+                <h3>What is Ooho?</h3>
+                
+                
+                <h3>It is 100% made of Plants & Seaweed</h3>
+                
+                
+               <h3> Biodegradable in 4-6 weeks, just like a piece of fruit<h3>
+            
+                
+               <h3> Edible, can be flavoured and coloured<h3>
+            
+                
+               <b3> Fresh (shelf life of a few days)<b3>
+                
+                
+               <b3> 5x less CO₂, 9x less Energy vs PET<b3>
+               <b3> Cheaper than plastic buy from ooho.<b3>
+                </div>
+            </div>
+            <a href="http://www.skippingrockslab.com/" target="_blank">Website of ooho</a>
+        </div>
+
+    </body>
+    </html>
